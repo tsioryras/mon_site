@@ -1,0 +1,4 @@
+services:
+#    site_signin.example:
+#        class: Site\SigninBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

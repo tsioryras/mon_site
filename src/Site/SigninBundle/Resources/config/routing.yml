@@ -1,0 +1,3 @@
+site_signin_homepage:
+    path:     /
+    defaults: { _controller: SiteSigninBundle:Default:index }
