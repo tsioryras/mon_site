@@ -2,12 +2,15 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="viewport" content="width-device-width, initial-scale-1.0"/>
+        <title>{% block title %}{% endblock %} - IS2M Platform </title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        {%  block nav %}{% include '::nav.html.twig' %}{% endblock %}
         {% block body %}{% endblock %}
+        {% block footer %}{% include '::footer.html.twig' %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
