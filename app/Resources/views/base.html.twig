@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width-device-width, initial-scale-1.0"/>
         <title>{% block title %}{% endblock %} - IS2M Platform </title>
+        <link rel="stylesheet" href="{{ assets('css/bootstrap.min.css') }}"/>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
@@ -12,5 +13,6 @@
         {% block body %}{% endblock %}
         {% block footer %}{% include '::footer.html.twig' %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        <script src="{{ assets('js/bootstrap.min.js') }}"></script>
     </body>
 </html>
