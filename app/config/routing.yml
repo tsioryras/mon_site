@@ -1,3 +1,7 @@
+site_login:
+    resource: "@SiteLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
 site_signin:
     resource: "@SiteSigninBundle/Resources/config/routing.yml"
     prefix:   /
